@@ -36,3 +36,19 @@ Thumbs.db
 *.pyc #python bytecode cache, for some plugins.
 sysinfo.txt #Unity3D Generated File On Crash Reports
 UserPrefs.xml
+Assets/Plugins.meta
+.vs/Shader/v15/Server/sqlite3/storage.ide-wal
+.vs/Shader/v15/Server/sqlite3/db.lock
+.idea/.idea.Shader/.idea/vcs.xml
+.idea/.idea.Shader/.idea/modules.xml
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+.vs/Shader/v15/Server/sqlite3/storage.ide-shm
+.vs/Shader/v15/Server/sqlite3/storage.ide
+.idea/.idea.Shader/riderModule.iml
+.idea/.idea.Shader/.idea/workspace.xml
+.idea/.idea.Shader/.idea/indexLayout.xml
+.idea/.idea.Shader/.idea/contentModel.xml
+Assets/Plugins/Editor/JetBrains.meta
+Assets/Plugins/Editor.meta
+.vs/Shader/DesignTimeBuild/.dtbcache

@@ -1,4 +1,4 @@
-﻿Shader "ShaderSketches/TexDistance002"{
+﻿Shader "SS/TexDistance002"{
     Properties{
         _MainTex("MainTex", 2D) = "white"{}    
     }

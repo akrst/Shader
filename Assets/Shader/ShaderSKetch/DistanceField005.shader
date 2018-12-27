@@ -1,4 +1,4 @@
-﻿Shader "ShaderSketches/DistanceField005"{
+﻿Shader "SS/DistanceField005"{
     Properties{
         _MainTex("MainTex", 2D) = "white"{}    
     }

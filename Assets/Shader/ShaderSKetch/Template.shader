@@ -1,4 +1,4 @@
-﻿Shader "ShaderSketches/Template"{
+﻿Shader "SS/Template"{
     Properties{
         _MainTex("MainTex", 2D) = "white"{}    
     }

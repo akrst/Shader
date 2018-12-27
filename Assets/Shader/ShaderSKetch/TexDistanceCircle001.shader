@@ -1,4 +1,4 @@
-﻿Shader "ShaderSketches/TexDistanceCircle001"{
+﻿Shader "SS/TexDistanceCircle001"{
     Properties{
         _MainTex("MainTex", 2D) = "white"{}    
     }

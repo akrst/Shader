@@ -1,4 +1,5 @@
-﻿Shader "SS/PolarCoordinates003"{
+﻿Shader "SS/PolarCoordinates003"
+{
     Properties{
         _MainTex("MainTex", 2D) = "white"{}    
     }

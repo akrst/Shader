@@ -6,7 +6,7 @@
         _Alpha("Alpha", Range(0, 1)) = 1
         _Boxsize("BoxSize", Range(0, 10)) = 5
         _Speed("Speed ",Range(0, 100)) = 1
-        _Frequency("Frequency ", Range(0, 3)) = 1
+        _Frequency("Frequency ", Range(0, 100)) = 1
         _Amplitude("Amplitude", Range(0, 1)) = 0.5
     }
     SubShader
@@ -14,7 +14,6 @@
         Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
         LOD 100
  
-        ZWrite Off
         Blend SrcAlpha OneMinusSrcAlpha 
 
         Pass

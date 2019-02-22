@@ -14,7 +14,7 @@
 
         Pass
         {
-            CGPROGRAM
+           CGPROGRAM
            #pragma vertex vert
            #pragma fragment frag
             

@@ -56,13 +56,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Alpha: 1
-    - _Amplitude: 0.677
+    - _Amplitude: 0.179
     - _Boxsize: 10
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Frequency: 1.65
+    - _Frequency: 0.534
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

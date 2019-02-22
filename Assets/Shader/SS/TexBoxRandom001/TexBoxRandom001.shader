@@ -1,4 +1,4 @@
-﻿Shader "Unlit/TexBoxRandom001"
+﻿Shader "SS/TexBoxRandom001"
 {
     Properties{
         _MainTex("MainTex", 2D) = "white"{}
@@ -32,7 +32,6 @@
         Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
         LOD 100
  
-        ZWrite Off
         Blend SrcAlpha OneMinusSrcAlpha 
         Pass{
             CGPROGRAM

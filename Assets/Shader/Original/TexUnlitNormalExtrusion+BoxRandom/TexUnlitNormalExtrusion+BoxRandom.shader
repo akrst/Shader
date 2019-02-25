@@ -55,9 +55,9 @@
 			float4 _MainTex_ST;
             float _Alpha;
             float _Boxsize;
-            float _ExtrusionPoint;
+		    float _ExtrusionAmount;            
             float _Speed;
-		    float _ExtrusionAmount;
+            float _ExtrusionPoint;
 
 			v2f vert (appdata v)
 			{

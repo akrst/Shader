@@ -4,10 +4,10 @@
     {
         _MainTex("MainTex", 2D) = "white"{}
         _Alpha("Alpha", Range(0, 1)) = 1
-        _Boxsize("BoxSize", Range(0, 10)) = 5
-        _Speed("Speed ",Range(0, 100)) = 1
+        _Boxsize("BoxSize", Range(0, 50)) = 5
+        _Speed("Speed ",Range(0, 50)) = 1
         _Frequency("Frequency ", Range(0, 100)) = 1
-        _Amplitude("Amplitude", Range(0, 1)) = 0.5
+        _Amplitude("Amplitude", Range(0, 10)) = 0.5
     }
     SubShader
     {
@@ -56,7 +56,6 @@
             v2f vert (appdata v)
             {
                 v2f o;
-                
                 // 時間によって波が移動するように
                 float time      = _Time * _Speed;
                 float offsetX   = box_size((v.vertex.y, v.vertex.z), time);

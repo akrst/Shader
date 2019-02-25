@@ -7,7 +7,7 @@
         _Boxsize("BoxSize", Range(0, 10)) = 5
         _Speed("Speed ",Range(0, 100)) = 1
         _Frequency("Frequency ", Range(0, 100)) = 1
-        _Amplitude("Amplitude", Range(0, 1)) = 0.5
+        _Amplitude("Amplitude", Range(0, 20)) = 0.5
     }
     SubShader
     {

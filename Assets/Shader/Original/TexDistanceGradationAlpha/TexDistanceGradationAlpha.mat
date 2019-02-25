@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TexDistanceGradationAlpha
-  m_Shader: {fileID: 4800000, guid: 4c088bfe941222b4aa357afe36b90912, type: 3}
+  m_Shader: {fileID: 4800000, guid: ee34429a26aab484bb7a9e081cb0dd4b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

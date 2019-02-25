@@ -38,8 +38,8 @@
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
+		    float _ExtrusionAmount;            
             float _ExtrusionPoint;
-		    float _ExtrusionAmount;
 			
 			v2f vert (appdata v)
 			{

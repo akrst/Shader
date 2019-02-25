@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TexUnlitNormalExtrusion+Distortion
-  m_Shader: {fileID: 4800000, guid: a497c1a216487bd43a2f9971f6cfb0c0, type: 3}
+  m_Shader: {fileID: 4800000, guid: 52a05a3de1506874f829f6429ba0fd5d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,8 +61,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _ExtrusionAmount: 17.2
-    - _ExtrusionPoint: 2.81
+    - _ExtrusionAmount: 19.1
+    - _ExtrusionPoint: 0.01
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

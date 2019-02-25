@@ -59,8 +59,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _ExtrusionAmount: 8.2
-    - _ExtrusionPoint: 2.81
+    - _ExtrusionAmount: 16.32
+    - _ExtrusionPoint: 0.01
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

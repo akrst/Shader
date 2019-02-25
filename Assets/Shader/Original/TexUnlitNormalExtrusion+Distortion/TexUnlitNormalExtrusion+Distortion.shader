@@ -4,9 +4,9 @@
 	{
 		_MainTex ("Texture", 2D) = "white" {}
         _Alpha("Alpha", Range(0, 1)) = 1
-        _ExtrusionAmount("Extrusion Amount", Range( -1 , 20)) = 0.5
         _Speed("Speed", Range(1, 100)) = 1
 		[HideInInspector] __dirty( "", Int ) = 1
+        _ExtrusionAmount("Extrusion Amount", Range( -1 , 20)) = 0.5
 		_ExtrusionPoint("ExtrusionPoint", Float) = 0
 	}
 	SubShader
@@ -48,8 +48,8 @@
 			float4 _MainTex_ST;
             float _Alpha;
             float _Speed;
-            float _ExtrusionPoint;
 		    float _ExtrusionAmount;
+            float _ExtrusionPoint;
 
 			v2f vert (appdata v)
 			{

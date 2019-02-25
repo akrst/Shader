@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Something
-  m_Shader: {fileID: 4800000, guid: ee34429a26aab484bb7a9e081cb0dd4b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1153b1d9e28b35149be2b5ffb874f911, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -43,8 +43,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d39c5d48e46a6f3439730da06ff5bba8, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 3141482ea68a6ba44b703bee129716a3, type: 3}
+        m_Scale: {x: 1, y: 30}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -72,15 +72,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Alpha: 1
-    - _Amplitude: 0.006
-    - _Boxsize: 5
+    - _Amplitude: 0
+    - _Boxsize: 0.8
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _ExtrusionAmount: 0.8
-    - _ExtrusionPoint: -0.21
-    - _Frequency: 94.2
+    - _ExtrusionAmount: 20
+    - _ExtrusionPoint: 0.03
+    - _Frequency: 2.5
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -91,7 +91,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 2.08
+    - _Speed: 1
     - _SrcBlend: 1
     - _Strength: 0
     - _Threshold: 1

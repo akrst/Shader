@@ -1,0 +1,40 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl Front/Back_FRONT_4672
+Ns 27.450980
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\akira\AppData\Local\CLO\Marvelous Designer 8 Personal\48436\1023\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Bump C:\\Users\\Public\\Documents\\MarvelousDesigner\\Assets_ver_4.2.293\\Materials\\Fabric_Normal_Map\\Polyester\\Polyester_Taffeta_FCL2PSP002_NORMAL.jpg
+map_Ka C:\\Users\\akira\\AppData\\Local\\CLO\\Marvelous Designer 8 Personal\\48436\\1023\\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+
+newmtl Pocket_FRONT_4686
+Ns 27.450980
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\akira\AppData\Local\CLO\Marvelous Designer 8 Personal\48436\1023\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Ka C:\\Users\\akira\\AppData\\Local\\CLO\\Marvelous Designer 8 Personal\\48436\\1023\\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+
+newmtl Waist_Belt_FRONT_4680
+Ns 27.450980
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\akira\AppData\Local\CLO\Marvelous Designer 8 Personal\48436\1023\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Bump C:\\Users\\Public\\Documents\\MarvelousDesigner\\Assets_ver_4.2.293\\Materials\\Fabric_Normal_Map\\Polyester\\Polyester_Taffeta_FCL2PSP002_NORMAL.jpg
+map_Ka C:\\Users\\akira\\AppData\\Local\\CLO\\Marvelous Designer 8 Personal\\48436\\1023\\Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg

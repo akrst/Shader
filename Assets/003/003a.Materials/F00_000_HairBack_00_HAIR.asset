@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: F00_000_HairBack_00_HAIR
+  m_Shader: {fileID: 4800000, guid: 052096f6cb8e643d38e4551d03e7d190, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 6e3e7ad272235714c9034f842c21e691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: d2f9b611f4d65124c9c6202716c3b077, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dd0409b46ab1c9645a1c3be4559a1974, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineWidthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReceiveShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTexture:
+        m_Texture: {fileID: 2800000, guid: dd0409b46ab1c9645a1c3be4559a1974, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SphereAdd:
+        m_Texture: {fileID: 2800000, guid: 640a6e28651876446976dd12c9f16e3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _Amplitude: 0.5
+    - _BlendMode: 2
+    - _Boxsize: 5
+    - _BumpScale: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DebugMode: 0
+    - _DstBlend: 10
+    - _ExtrusionAmount: 0.5
+    - _ExtrusionPoint: 0
+    - _Frequency: 1
+    - _IndirectLightIntensity: 0.1
+    - _LightColorAttenuation: 0
+    - _OutlineColorMode: 1
+    - _OutlineCullMode: 1
+    - _OutlineLightingMix: 1
+    - _OutlineScaledMaxDistance: 1
+    - _OutlineWidth: 0.165
+    - _OutlineWidthMode: 0
+    - _ReceiveShadowRate: 1
+    - _ShadeShift: -0.3
+    - _ShadeToony: 0
+    - _ShadingGradeRate: 1
+    - _Speed: 1
+    - _SrcBlend: 5
+    - _ZWrite: 0
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 0.22032697, g: 0.019721381, b: 0.12036921, a: 1}
+    - _EmissionColor: {r: 0.3462889, g: 0.2451429, b: 0.26014754, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadeColor: {r: 0.118195705, g: 0.001530036, b: 0.068308644, a: 1}

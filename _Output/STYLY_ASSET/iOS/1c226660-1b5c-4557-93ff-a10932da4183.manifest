@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 760348864
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d98bdf57b8dcd2572490281698b8df9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc193d49e7d16f71ac778acf3c7bfc27
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/styly_temp/1c226660-1b5c-4557-93ff-a10932da4183.prefab
+Dependencies: []

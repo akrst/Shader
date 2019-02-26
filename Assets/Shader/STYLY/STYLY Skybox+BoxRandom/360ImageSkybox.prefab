@@ -51,5 +51,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfb4f7da47018f48a479a5f798eddc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skybox: {fileID: 2100000, guid: e3f95199b7443fa4d810530b7dc04a27, type: 2}
+  skybox: {fileID: 2100000, guid: 4f60c82f69caa42d3b831d09c47d1ea9, type: 2}
   cubemap: {fileID: 0}

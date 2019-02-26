@@ -2,10 +2,11 @@
 
 Shader "Skybox/STYLY Skybox+BoxRandom" {
 Properties {
+    _Boxsize("BoxSize", Range(0, 30)) = 10
+    _Speed("Speed", Range(0.01, 3)) = 0.03
     _Tint ("Tint Color", Color) = (.5, .5, .5, .5)
     [Gamma] _Exposure ("Exposure", Range(0, 8)) = 1.0
     _Rotation ("Rotation", Range(0, 360)) = 0
-    _Boxsize("BoxSize", Range(0, 100)) = 5
     [NoScaleOffset] _MainTex ("Spherical  (HDR)", 2D) = "grey" {}
     [KeywordEnum(6 Frames Layout, Latitude Longitude Layout)] _Mapping("Mapping", Float) = 1
     [Enum(360 Degrees, 0, 180 Degrees, 1)] _ImageType("Image Type", Float) = 0
@@ -32,6 +33,7 @@ SubShader {
         float4 _MainTex_TexelSize;
         half4 _MainTex_HDR;           
         float _Boxsize;
+        float _Speed;
         half4 _Tint;
         half _Exposure;
         float _Rotation;
@@ -42,13 +44,14 @@ SubShader {
 #endif
 
         float rand(float2 st){
+            //return frac(sin(dot(st, float2(12.9898, 78.233))) * 43758.5453);
             return frac(sin(dot(st, float2(12.9898, 78.233))) * 43758.5453);
         }
 
         float box_size(float2 st, float n){
             st = (floor(st * n)+0.5) /n;
             float offs = rand(st) * 5;
-            return (1 + sin(_Time.y * 3 + offs)) * 0.5;
+            return (1 + sin(_Time.y * _Speed + offs)) * 0.5;
         }
 
 		//float _MainTexBias;
@@ -209,8 +212,7 @@ SubShader {
 
             //half4 tex = tex2D (_MainTex, tc);
             float n = _Boxsize;
-            float2 st = frac(tc * n);
-			float4 tex = tex2Dlod(_MainTex, float4(tc.xy * n, 0, 0));
+			float4 tex = tex2Dlod(_MainTex, float4(box_size(tc.xy, n), box_size(tc.xy, n), 0, 0));
 			half3 c = DecodeHDR (tex, _MainTex_HDR);
             c = c * _Tint.rgb * unity_ColorSpaceDouble.rgb;
             c *= _Exposure;
@@ -221,7 +223,7 @@ SubShader {
 }
 
 
-CustomEditor "SkyboxPanoramicShaderGUI"
+//CustomEditor "SkyboxPanoramicShaderGUI"
 Fallback Off
 
 }

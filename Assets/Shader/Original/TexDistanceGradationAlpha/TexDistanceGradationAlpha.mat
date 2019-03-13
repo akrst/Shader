@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TexDistanceGradationAlpha
-  m_Shader: {fileID: 4800000, guid: ee34429a26aab484bb7a9e081cb0dd4b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 49975b9bd92024913bd8a4d1eda99d5b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,6 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

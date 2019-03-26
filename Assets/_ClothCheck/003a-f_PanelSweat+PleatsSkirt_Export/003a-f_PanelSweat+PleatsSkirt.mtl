@@ -1,0 +1,64 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl FrontPanel_FRONT_4713
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+map_Kd D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+newmtl Body/Sleeves_FRONT_4691
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/Plain/BaseColorGray.jpg
+map_Kd D:/Dropbox/__Output/_Textile/Plain/BaseColorGray.jpg
+newmtl Collar_FRONT_4719
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+map_Kd D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+newmtl CuffRib_FRONT_4724
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+map_Kd D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+newmtl HemRib_FRONT_4729
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+map_Kd D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+newmtl PleatsSkirt_FRONT_63745
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/49188/1046/Bitmap2Material_3_Base_Color.png
+map_Kd C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/49188/1046/Bitmap2Material_3_Base_Color.png
+newmtl SkirtHem_FRONT_11172035
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
+map_Kd D:/Dropbox/__Output/_Textile/f2f528a0433ee1515d978256d082b6fd.jpg
